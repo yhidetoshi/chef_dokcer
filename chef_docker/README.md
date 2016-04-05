@@ -1,5 +1,16 @@
 ### MacにインストールしたchefでvagrantのVMを管理する
 
+- Dockerfileにてchefの内容をビルドする
+
+`$ docker build -t centos/chef .`
+
+- ビルドが完了したらイメージを指定して起動する
+
+`$ docker run -i -t centos/chef /bin/bash`
+
+
+
+
 ### Vagrantをデプロイする
 ```
 - 対象仮想マシンにChefをインストールする。
