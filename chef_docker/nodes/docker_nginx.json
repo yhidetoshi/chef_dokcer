@@ -1,0 +1,7 @@
+{
+   "run_list": [
+	"recipe[git::git]",
+	"recipe[yum::epel]",
+	"recipe[nginx]"
+   ]
+}

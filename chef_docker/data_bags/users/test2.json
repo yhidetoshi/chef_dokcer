@@ -1,0 +1,21 @@
+{
+  "id": "test2",
+  "groups": [
+    {
+      "name": "test",
+      "gid": 2001
+    }
+  ],
+  "users": [
+    {
+      "name": "test2",
+      "home": "/home/test2",
+      "shell": "/bin/bash",
+      "password": "$1$23z7JGCv$9dHBNA3FmOLTfb.RAvdgQ.",
+      "uid": 2002,
+      "gid": 2001
+    }
+  ]
+}
+
+
